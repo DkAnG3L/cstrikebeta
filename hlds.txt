@@ -1,0 +1,11 @@
+// hlds.txt
+//set to 0 if updating multiple servers at once
+@ShutdownOnFailedCommand 1 
+//for servers which don't need a login
+@NoPromptForPassword 1
+//login anonymous 
+login anonymous
+force_install_dir .\hlds\
+app_update 90
+app_update 90 validate
+quit
